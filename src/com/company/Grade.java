@@ -8,7 +8,7 @@ public class Grade {
     String scoreMessage = "";
 
     public void studentGrade(int score) {
-
+        //Test conditions
         if (score <= 100 & score >= 90) {
             scoreMessage = "You got A";
             System.out.println(scoreMessage);
@@ -33,7 +33,6 @@ public class Grade {
             scoreMessage = "You failed!";
             System.out.println(scoreMessage);
         }
-
 
     }
 }
